@@ -22,8 +22,53 @@
     <!-- User Profile / Logout -->
     <div class="user-profile">
       <!-- <img src="assets/profile-icon.png" alt="User Profile" class="profile-img" /> -->
-      <span>John Doe</span>
+      <span>Aman Singh</span>
       <button class="logout-btn">Logout</button>
     </div>
   </div>
+<!-- Add Expenses Section -->
+<section class="add-expenses">
+    <h2>Add Expenses</h2>
+
+    <!-- Title and Date Row -->
+    <div class="input-row">
+      <div class="input-group">
+        <label for="expense-title">Expense Title</label>
+        <input type="text" id="expense-title" placeholder="Enter expense title" />
+      </div>
+      <div class="input-group">
+        <label for="expense-date">Expense Date</label>
+        <input type="date" id="expense-date" />
+      </div>
+    </div>
+
+    <!-- Expenses Section -->
+    <h3>Expenses</h3>
+
+    <!-- Categories, Amount, and Bill Image Fields -->
+    <div class="expense-details">
+      <div class="expense-column">
+        <label for="category">Category</label>
+        <input type="text" id="category" placeholder="Enter category" />
+      </div>
+      <div class="expense-column">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount" />
+      </div>
+      <div class="expense-column">
+        <label for="bill-image">Bill Image</label>
+        <input type="file" id="bill-image" />
+      </div>
+    </div>
+
+    <!-- Add Button -->
+    <button class="add-expense-button">Add Expense</button>
+
+    <!-- Total Expense Section -->
+    <div class="total-expense">
+      <h4>Total Expense</h4>
+      <input type="text" id="total-expense" placeholder="Total amount" disabled />
+    </div>
+  </section>
+
   
